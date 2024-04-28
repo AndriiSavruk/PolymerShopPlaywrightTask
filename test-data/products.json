@@ -1,0 +1,25 @@
+{
+    "product1": {
+        "position": 1,
+        "size": "L",
+        "quantity": "4"
+    },
+
+    "product2": {
+        "position": 3,
+        "size": "M",
+        "quantity": "2"
+    },
+
+    "product3": {
+        "position": 0,
+        "size": "S",
+        "quantity": "3"
+    },
+
+    "product4": {
+        "position": 5,
+        "size": "XS",
+        "quantity": "4"
+    }
+}

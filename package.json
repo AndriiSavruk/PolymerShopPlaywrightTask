@@ -1,0 +1,21 @@
+{
+  "name": "polymershopplaywrighttask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests": "npx playwright test",
+    "tests ui": "npx playwright test --ui",
+    "tests -chrome": "npx playwright test --project chromium",
+    "tests -firefox": "npx playwright test --project firefox",
+    "tests -webkit": "npx playwright test --project webkit",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.7"
+  }
+}

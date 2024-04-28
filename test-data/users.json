@@ -1,0 +1,16 @@
+{
+    "user1": {
+        "email": "tester@example.com",
+        "phone": "12345667891",
+        "address": "Main Str. 1",
+        "city": "Montreal",
+        "state": "Quebec",
+        "zip": "11111",
+        "country": "Canada",
+        "name": "Tester One",
+        "card": "1111222233334444",
+        "exmonth": "Nov",
+        "exyear": "2025",
+        "cvv": "111"
+    }
+}
