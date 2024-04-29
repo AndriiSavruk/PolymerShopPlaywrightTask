@@ -21,6 +21,4 @@ export class MainPage extends BasePage {
         await super.clickElement(this.ladiesOuterwearLink);
         await this.page.waitForTimeout(1000);
     }
-
-    
     }

@@ -15,14 +15,6 @@ export class BasePage {
           });
     }
 
-    // async getElement(element: string): Promise<Locator> {
-    //     return this.page.locator(element);
-    // }
-
-    // async clickElement(element: string): Promise<void> {
-    //     await ( await this.getElement(element)).click();
-    // }
-
     async clickElement(element: Locator): Promise<void> {
         await element.click();
     }
