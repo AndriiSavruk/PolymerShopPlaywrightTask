@@ -18,7 +18,7 @@ test('Challenge 1: E2E Test', async ({
   await test.step('Choosing products and verifying the cart', async () => {
 
     await mainPage.navigate();
-    await mainPage.clickOnMensOuterwearLink();
+    await mainPage.clickOnMensOuterwearLink()  ;
     await selectProduct(product1.position, product1.size, product1.quantity);
     await mainPage.clickOnMensOuterwearLink();
     await selectProduct(product2.position, product2.size, product2.quantity);
